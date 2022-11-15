@@ -7,7 +7,7 @@
 <h4>Feel the rush of being part of the acclaimed SPHFS/18 - Special Plasma Heavy Force Squad 18, and save us from the terrifying Y-23A Zorg, a mach-80 strobotic hypersonic magnetic cannon weapon. And remember: you can always be a SIGMA! :medal_military:</h4>
 
 ---                                                             
-### `OPERATION: ALPHA-BRAVO S4-DELTA/113-15 LMS33 CLASS:386-P52` [ENTER HERE](ecs-load-balancer-153755951.us-east-1.elb.amazonaws.com) :sparkle:
+### `OPERATION: ALPHA-BRAVO S4-DELTA/113-15 LMS33 CLASS:386-P52` [ENTER HERE](http://ecs-load-balancer-153755951.us-east-1.elb.amazonaws.com) :sparkle:
 ---                                                            
 #### ADVICES:
 ###### 1. FOR GOOD PERFORMANCE PREFER DESKTOP BROWSER 
