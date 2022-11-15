@@ -56,5 +56,3 @@ Opcionalmente, apenas para fins de estudo, o game também está acessível atrav
 https://d1unfa8m5hmyxg.cloudfront.net/index.html
 
 Nesse caso aponta novamente para um load balancer, mas que tem como target group instâncias EC2 gerenciadas por política de auto scaling vertical, usando como base uma AMI construída para a aplicação. Por fim, buscando otimizar a entrega para comparar com a situação anterior, o load balancer só pode ser alcançado via CloudFront, que encaminha as solicitações com um cabeçalho HTTP customizado. Solicitações sem o cabeçalho são descartadas por regra.
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gstmoniz&hide=html)](https://github.com/gstmoniz/2095-SPHFS18)
