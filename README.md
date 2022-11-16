@@ -9,23 +9,23 @@ Feel the rush of being part of the acclaimed SPHFS/18 - Special Plasma Heavy For
 ---                                                             
 ### `OPERATION: ALPHA-BRAVO S4-DELTA/113-15 LMS33 CLASS:386-P52` [ENTER HERE](http://ecs-load-balancer-153755951.us-east-1.elb.amazonaws.com)
 ---                                                            
-#### ADVICES:
-1. FOR GOOD PERFORMANCE PREFER DESKTOP BROWSER 
-2. IF YOU DIE (YOU WILL) USE THE BROWSER RELOAD [F5]
-3. FOR ULTIMATE PERFORMANCE USE NVIDIA AMPERE A100 80GB GPU
-4. WE RECOMMEND THE US-ARMY TEXTRON MARINE 5749739-023 DATA ENTRY COMMAND KEYBOARD
+#### Advices:
+1. For good performance prefer desktop browser 
+2. If you die (you will) use the browser reload [F5]
+3. For ultimate performance use NVIDIA Ampere A100 80Gb GPU
+4. We recommend the US-Army TEXTRON MARINE 5749739-023 Data Entry command keyboard
 ---
-#### CONTROLS: 
-<ins>ADVANCED MULTIDIMENSIONAL HANDLING TECHNIQUES DURING COMBAT</ins>
-1. HOLD UP ARROW TO `move up` :arrow_up:
-2. HOLD DOWN ARROW TO `move down` :arrow_down:
-3. YOU NEED TO BOUNCE OFF THE THERMONUCLEAR PLASMA BOMB
+#### Controls: 
+<ins>Advanced multidimensional handling techniques during combat</ins>
+1. Hold up arrow to `move up` :arrow_up:
+2. Hold down arrow to `move down` :arrow_down:
+3. You need to bounce off the thermonuclear plasma bomb
 ----------
 
 <br></br>
 <br></br>
 
-<h3>Sobre o game! :joystick:</h3>
+<h3>Sobre o game :joystick:</h3>
 
 O jogo foi desenvolvido com o propósito de testar e aperfeiçoar habilidades nas seguintes áreas: lógica de programação, linguagem JavaScript, criação de imagens e orquestração de containers, gerenciamento de serviços na AWS via CLI e conceitos de adminstração de redes. Foi criado do zero, incialmente com um esboço no Scratch (scratch.mit.edu), depois continuado em JavaScript e, por fim, convertido para HTML.</br>
   </br>
