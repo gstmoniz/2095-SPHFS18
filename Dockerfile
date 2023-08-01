@@ -1,4 +1,4 @@
-FROM nginx:1.22
+FROM nginx:latest
 WORKDIR /usr/share/nginx/html/
 COPY . .
 ARG PORT_BUILD=80
