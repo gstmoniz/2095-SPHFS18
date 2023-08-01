@@ -47,7 +47,7 @@ jobs:
       # Runs a single command using the runners shell - from aws-actions
       - name: Download task definition
         run: |
-          aws ecs describe-task-definition --task-definition sphfsCluster-task --query taskDefinition > task-definition.json
+          aws ecs describe-task-definition --task-definition sphfs-family --query taskDefinition > task-definition.json
       # Update the task definition file prior to deployment with the new container image ID
       - name: Fill in the new image ID in the Amazon ECS task definition
         id: task-def
