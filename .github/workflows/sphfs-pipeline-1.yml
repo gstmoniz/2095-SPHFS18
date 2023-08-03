@@ -64,3 +64,18 @@ jobs:
           service: sphfs-service
           cluster: sphfs-ecs-fargate
           wait-for-service-stability: true
+      # Using terraformECSFargate as infra requires CloudFront review on all Terraform changes
+      # CloudFront with Managed-CachingDisabled behavior policy
+      - name: Update CloudFront origin with created Terraform ALB
+        run: |
+          apt update && apt install jq
+          aws cloudfront get-distribution --id ${{ secrets.CLOUDFRONT_ID }} > distribution.json
+          ALB=$(aws elbv2 describe-load-balancers | jq '.LoadBalancers[0].DNSName' | tr -d \")
+          ETAG=$(cat distribution.json | jq '.ETag' | tr -d \")
+          cat distribution.json | \
+            jq --arg ORIGIN "$ALB" '.Distribution.DistributionConfig.Origins.Items[0].Id=$ORIGIN' | \
+            jq --arg ORIGIN "$ALB" '.Distribution.DistributionConfig.Origins.Items[0].DomainName=$ORIGIN' | \
+            jq --arg ORIGIN "$ALB" '.Distribution.DistributionConfig.DefaultCacheBehavior.TargetOriginId=$ORIGIN' | \
+            jq .Distribution.DistributionConfig > distribution2.json
+          aws cloudfront update-distribution --id ${{ secrets.CLOUDFRONT_ID }} --distribution-config file://distribution2.json --if-match $ETAG > /dev/null
+          rm distribution.json distribution2.json
